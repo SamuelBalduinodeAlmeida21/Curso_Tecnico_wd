@@ -1,0 +1,30 @@
+body {
+    background-color:#fff;
+}
+h1{
+    color:#000;
+    background-color:#777;
+    text-align:center;
+}
+p{
+    font-family:impact;
+    font: size 65px;
+    font-style: italic;
+}
+h2{
+    color:#777;
+    background-position: left;
+    background-color:#fff;
+    background-attachment:scroll;
+    font-family:'Franklin Gothic Medium';
+    font-size:97px;
+}
+ul{
+    color:#00008b;
+    background-color:#000;
+    backdrop-filter:unset;
+    font-family:monospace;
+    font-size:77px;
+    font-weight:300;
+
+}

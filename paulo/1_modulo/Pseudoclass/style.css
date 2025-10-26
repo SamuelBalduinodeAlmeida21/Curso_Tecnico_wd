@@ -1,0 +1,22 @@
+body{
+    margin: 160px;
+    padding-top: 360px;    
+}
+
+a:link{
+    color: mediumturquoise;
+}
+
+a:visited{
+    color:magenta;
+}
+
+a:hover{
+    background-color: lightslategray;
+}
+
+a:active{
+    color: orangered;
+ 
+
+}

@@ -1,0 +1,35 @@
+#titulo {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 22px;
+    color: purple;
+}
+
+#subtitulo {
+    font-family: Tahoma;
+    font-size: 18px;
+    color: #ddd;
+}
+
+#lista_ordenada {
+    list-style-type: upper-roman;
+    font-family: verdana;
+    color: #fff;
+}
+
+#caixa_maior {
+    margin: auto;
+    width:  700px;
+    height: 350px;
+    background-color: #7669e6;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+#caixa_esquerda {
+    float: left;
+}
+
+#caixa_direita {
+    float: right;
+}

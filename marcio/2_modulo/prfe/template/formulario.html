@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="form_style.css">
+</head>
+<body>
+    <h1 id="titulo">Fale Conosco</h1>
+    <div class="caixa_form">
+        <form name="formulario">
+            <fieldset>
+                
+                <legend>Dados pessoais</legend>
+                
+                <label id="nome" type="text" class="caixa_texto" id="nome_id" placeholder="fulano" required>
+                    <span>Nome: </span> 
+                </label>
+                
+                <br>
+                <br> 
+                
+                <label id="email" type="email" class="caixa_texto" id="email_id" placeholder="seuzé@email.com">
+                    <p>Email: </p>
+                </label>
+                
+                <br>
+                <br>
+                
+                <label id="telefone" type="tel" class="caixa_texto" id="telefone" placeholder="(xx)xxxx-xxxx" maxlength="10">
+                    <p>Telefone: </p>
+                </label>
+                
+                <br>
+                <br>
+                
+                <label id="endereco" type="text" class="caixa_texto" placeholder="Rua / Av. / Alameda " id="endereco_id" required>
+                    <p>Endereço: </p>
+                    
+                </label>
+
+                <br>
+                <br>
+
+                <label id="bairro" type="text" class="caixa_texto" id="bairro_id" placeholder="Jd. / Vila" required>
+                    <p>Bairro: </p>
+                </label>
+
+                <label id="cidade" type="text" class="caixa_texto" id="cidade_id" placeholder="Barueri.exemplo" required>
+                    <p>Cidade: </p>
+                    &nbsp;&nbsp;
+                    <select name="estado" id="estado_id">
+                        <option value="São Paulo">SP</option>
+                        <option value="Rio de Janeiro">RJ</option>
+                        <option value="Acre">AC</option>
+                        <option value="Amazonas">AZ</option>
+                        <option value="Pernambuco">PE</option>
+                        <option value="Santa Catarina">ST</option>
+                        <option value="Paraná">PR</option>
+                        <option value="Rio grande do Sul">RS</option>
+                        <option value="Minas Gerais">MG</option>
+                        <option value="Roraima">RR</option>
+                        <option value="Ceará">CE</option>
+                        <option value="Alagoas">AL</option>
+                        <option value="Bahia">BA</option>
+                        <option value="Rondônia">RO</option>
+                    </select>
+                </label>
+                
+                <label id="CEP" type="text" class="caixa_texto" id="CEP_id" placeholder="xxxx-xxxx" required>
+                    <p>CEP: </p>
+                </label>
+
+                <br>
+                <br>
+
+                <label id="senha" type="password" class="caixa_texto" id="senha_id" placeholder="******" required>
+                    <P>Senha: </P>
+                </label>
+
+                <br>
+                <br>
+
+                <label id="dat_nasc" type="text" class="caixa_texto" placeholder="xx/xx/xxxx" required>
+                    <p>Data de Nascimento: </p>
+                </label>
+
+                <br>
+                <br>
+
+                <label id="sexo">
+                    <input type="radio" name="sexo" value="M" required><span class="sexo">Masculino</span>&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="sexo" value="F" required><span class="sexo">Feminino</span>
+                </label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Conhecimento Técnico</legend>
+                <div id="itens_esquerda">
+                    <input type="checkbox" name="conhecimento" value="HTML5">HTML 5 <br>
+                    <input type="checkbox" name="conhecimento" value="CSS">CSS <br>
+                    <input type="checkbox" name="conhecimento" value="JavaScript">JavaScript <br>
+                </div>
+
+                <div id="itens_meio">
+                    <input type="checkbox" name="conhecimento" value="PHP">PHP<br>
+                    <input type="checkbox" name="conhecimento" value="Photoshop">Photoshop<br>
+                    <input type="checkbox" name="conhecimento" value="MySQL">MySQL<br>
+                </div>
+
+                <div id="itens_direita">
+                    <input type="checkbox" name="conhecimento" value="JSON">JSON <br>
+                    <input type="checkbox" name="conhecimento" value="JQuery">JQuery <br>
+                    <input type="checkbox" name="conhecimento" value="NodeJs">NodeJs <br>
+                </div>
+            </fieldset>
+                <p  id="bt_enviar" type="submit" value="Enviar">&nbsp;&nbsp;
+                </p>
+                <p id="bt_Apagar" type="submit" value="Apagar"></p>
+            </form>
+        </div>
+ </body>
+</html>

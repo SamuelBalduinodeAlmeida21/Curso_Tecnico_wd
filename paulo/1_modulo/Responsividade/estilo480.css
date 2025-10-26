@@ -1,0 +1,6 @@
+#container{
+    min-width: 320px;
+}
+#container div:nth-child(1){
+    background: yellow;
+}

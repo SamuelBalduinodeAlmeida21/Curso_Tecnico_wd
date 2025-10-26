@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo_valor/css">
+    <title>Maior valor</title>
+</head>
+<body>
+    <script language="javascript">
+       alert("vetores e maior valor")
+        var vetor = new Array();
+        vetor[0] = 10;
+        vetor[1] = 15;
+        vetor[2] = 5;
+        vetor[3] = 30;
+        vetor[4] = 9;
+        vetor[5] = 18;
+        var maior_valor = vetor[0];
+        var indice;
+
+        for(indice = 1;indice <= 5;indice++/* o indice é igual a 1, enquanto o indice é menor que 5, indice recebe ele mesmo (ponto e vírgula é até) */){
+            if(vetor[indice]> maior_valor){
+                maior_valor = vetor[indice];
+            }
+        }
+        document.write("O maior valor do vetor é " + maior_valor)
+    </script>
+</body>
+</html>

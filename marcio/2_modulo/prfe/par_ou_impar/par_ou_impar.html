@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Par ou impar</title>
+        <script>
+            alert("Par ou ímpar no JavaScript!")
+            var valor, modulo;
+            valor = 196;
+            modulo = valor % 2; //"Geralmente as pessoas falaraiam que o operador de divisão  não é barra? SIM, quando você quer obter o resultado do quociente da divisão!; Mas quando você quer o resto da divisão como resultado, nós utilizamos a porcentagem!." Profº Marcio
+            if(modulo == 0){
+                document.write(valor + ' é par')
+            }else{
+                document.write(valor + ' é ímpar')
+            }
+            //como nós queremos o resultado do resto da divisão não o quociente, se o resto for diferente de zero nós já saberemos que o número, é um número ímpar, se o resto for igual a zero, o número é par
+        </script>
+    </head>
+</html>

@@ -1,0 +1,97 @@
+*{
+margin:0;
+padding: 0;
+}
+#estrutura{
+    width: 1080px;
+    height: auto;
+    padding-left: 120px;
+}
+
+#menu{
+    background: #0000ff;
+    padding-top: 15px;
+    height: 40px;
+}
+
+#menu ol li{
+    font-family: verdana;
+    font-size: 18px;
+    display: inline;
+    padding: 10px;
+}
+
+#menu ol li a{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+#menu ol li:hover{
+    background-color: #0000cc;
+    height: 40px;
+}
+
+section{
+    width: 1080px;
+    height: 500px;
+}
+
+.foto{
+    width: 680px; 
+    height: 400px;
+    float: left;
+}
+
+img.prog{
+    width: 620px;
+    height: 400px;
+}
+
+.text{
+    width: 400px;
+    height: 500px;
+    padding-top: top;
+    padding-top: 35px;   
+    padding-left: 0px;
+    float: right;
+    font-family: verdana;
+    font-size: 16px;
+    text-align: justify;
+    color: #555;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+hr{
+    width: 1080px;
+    color: beige;
+}
+
+footer{
+    width: 1080px;
+    margin-top: 20px;
+    background-color: beige;
+    height: 300px;
+}
+
+footer h3{
+    font-size: 20px;
+    font-family: arial;
+    padding-left: 50px;
+}
+
+footer ul{
+    padding-left: 50px;
+    font-family: arial;
+}
+
+img.fotos{
+    width: 265px;
+    height: 180px;
+    margin-top: 0px;
+    padding: 0px;
+}

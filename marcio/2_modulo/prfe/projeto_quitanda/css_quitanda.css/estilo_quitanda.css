@@ -1,0 +1,62 @@
+*{
+    font-family: verdana;   
+}
+
+h1#titulo{
+    font-size: 24px;
+    color: #ff2a00;
+}
+
+h2#frutas{
+    font-size: 16px;
+    color: #195800;
+}
+
+h2#verduras{
+    font-size: 16px;
+    color: #195800;
+}
+
+h2#legumes{
+    font-size: 16px;
+    color: #905800;
+}
+
+h2#cerais{
+    font-size: 16px;
+    color: #ffd480;
+}
+
+ul#lista_frutas{
+    list-style-type: disc;
+    font-size: 14px;
+}
+
+ul#lista_verduras{
+    list-style-type: circle;
+    font-size: 14px;
+}
+
+ul#lista_legumes{
+    list-style-type: square;
+    font-size: 14px;
+}
+
+ul#lista_cereais{
+    list-style-type: circle;
+    font-size: 12px;
+}
+
+div#caixa{
+    width: 85%; /*Width é largura do objeto*/
+    background-color: #a0a0a0;
+    border-radius: 12px;    
+}
+
+#Everything{
+    display: flex;
+    justify-content: center;
+}
+
+
+

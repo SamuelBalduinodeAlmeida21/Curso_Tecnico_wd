@@ -1,0 +1,41 @@
+body{
+    background-color: #f7f5f5;
+}
+
+h1{
+    text-align: center;
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(39, 201, 39);
+} 
+
+.caixa_form{
+    margin: auto;
+    width: auto;
+}
+
+.caixa_form label{
+    font-size: 0.8em; /*ou 0.8em.lembra que 1 em equivale a 16 pixels*/
+    display: block;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.caixa_form input.caixa_texto:focus {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 4px;
+}
+
+.caixa_form input.caixa_texto {
+    border: 1px solid rgb(12, 129, 12);
+}
+
+.caixa_form input #nome_id{
+    border-radius: 5px;
+    width: 70%;
+}
+.caixa_form, #nome_id{
+    border-radius: 5px;
+    width: 70%;
+}

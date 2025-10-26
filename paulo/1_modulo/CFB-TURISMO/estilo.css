@@ -1,0 +1,80 @@
+body{
+    margin: 0 auto;
+    width: 960px;
+    background-image:url(fundo.svg);
+    background-repeat: repeat-x;
+    background-color: #ddd;
+    padding: 0px;
+    overflow-y: scroll;
+}
+
+.vazio{
+    clear: both;
+}
+
+#menu{
+    float: left;
+    width: 960px;
+}
+
+#menu a:hover{
+    color: #000;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu li {
+    height: 50px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 240px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+#logo{
+    float: left;
+}
+
+#socials{
+    float: right;
+    margin-top: 95px;
+}
+
+#main{
+    background:#eee;
+    border-radius: 20px;
+    padding: 20px;
+    float: left;
+    width: 660px;
+}
+
+#destinos, #contato, #promocoes{
+    background:#eee;
+    border-radius: 20px;
+    padding: 20px;
+    width: 960px;
+}
+#main h1, #destinos{
+    font-family: arial;
+    font-size: 20px;
+}
+
+#main p, #destinos{
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+#destinos img{
+    float: left;
+    padding: 0px 10px 0px 0px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Repetição infinita WHILE</title>
+</head>
+<body>
+    <p id="demonstracao"></p>
+        <script id="demonstracao" type="text/javascript">
+    alert("Estrutura de repetição infinta WHILE")
+    
+    var frase = "";
+    var i = 0;
+    while (i <= 100) {
+        frase += "O número é " + i + "<br>";
+        i++; // i = i + i - 
+             //i+= quer dizer i mais algum número que você adciona depois do sinal de igual
+    }
+    document.getElementById("demonstracao").innerHTML = frase;
+     </script>
+</body>
+</html>

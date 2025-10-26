@@ -1,0 +1,7 @@
+@media all and (max-width:480px){
+    #celular {
+        background-color: #e598ef;
+        border: 1px solid #000;
+        padding: 10px;
+    }
+}

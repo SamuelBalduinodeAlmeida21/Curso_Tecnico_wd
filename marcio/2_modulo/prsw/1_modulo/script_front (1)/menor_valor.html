@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo_valor/estilo_valor.css">
+    <title>menor valor</title>
+</head>
+<body>
+    <article>
+        <header>
+            <h1 id="titulo">Demonstrar o menor valor do vetor</h1>
+        </header>
+        <section>
+            <div id="container">
+                <p id="frase"></p>
+            </div>
+        </section>
+    </article>
+    <script language="javascript">
+        alert("vetores menor valor")
+        var vetor = new Array();
+        vetor[0] = 10;
+        vetor[1] = 15;
+        vetor[2] = 5;
+        vetor[3] = 30;
+        vetor[4] = 9;
+        vetor[5] = 18;
+        var menor_valor = vetor[0];
+        var indice;
+
+        for(indice = 1;indice <= 5;indice++){
+            if(vetor[indice] < menor_valor){
+                menor_valor = vetor[indice]
+            }
+        }
+             document.getElementById("frase").innerHTML = "O menor valor é " + menor_valor;
+
+    </script>
+</body>
+</html>

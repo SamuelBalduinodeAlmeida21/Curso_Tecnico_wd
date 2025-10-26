@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="default.css">
+    <title>Responsividade</title>
+    <!-- Telas responsivas -->
+    
+    <!-- Se a tela é de celular, então faça: -->
+    <link rel="stylesheet" media="screen and (max-width:480px)" href="css/estilo480.css">
+    
+    <!-- Se a tela é tablet, faça: -->
+    <link rel="stylesheet" media="screen and (min-width:481px) and (max-width:768px)" href="css/estilo768.css">
+    
+    <!-- Se a tela é monitor , faça: -->
+    <link rel="stylesheet" media="screen and (min-width:769px) and (max-width:1025px)" href="css/estilo1024.css">
+    
+    <!-- Se a tela é  um monitor média resolução, faça: -->
+    <link rel="stylesheet" media="screen and (min-width:769px) and (max-width:1025px)" href="css/estilo1024.css">
+    
+    <!-- Se a tela é um monitor de alta resolução , faça: -->
+    <link rel="stylesheet" media="screen and (min-width:1025px)" href="css/estilo_alta_res.css">
+</head>
+<body>
+    <div id="container">
+        <div id="celular">
+            <p>Esta caixa ficará rosa para tela de celulares.</p>
+        </div>
+        <div id="tablets">
+            <p>Esta caixa ficará verde para telas de tablets.</p>
+        </div>
+        <div id="monitor_media_res">
+            <p>
+                esta caixa ficara laranja para telas de monitores de média resolução.
+            </p>
+        </div>
+        <div id="monitor_alta_res">
+            <p>Esta caixa ficara azul para monitores de alta resolução.</p>
+        </div>
+    </div>
+</body>
+</html>

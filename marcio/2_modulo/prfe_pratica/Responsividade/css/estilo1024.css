@@ -1,0 +1,7 @@
+@media all and (min-width:769px) and (max-width:1024px) {
+    #monitor_media_res{
+        background-color: #ff8b00;
+        border: 1px dotted #000;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,38 @@
+body{
+    padding-top: 60px;
+}
+
+h1{
+    text-align: center;
+    font-family: monospace;
+    color:#aaccff;
+}
+
+h1::after{
+    content: '';
+    width:528px;/*largura*/
+    height:5px;/*altura*/
+    background:currentColor;
+    display: block;
+    margin: 10px auto;
+}
+
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    max-width: 500px;
+    line-height: 1.5em;
+    margin: 20px auto;
+    text-align: center;
+    color:black;
+}
+
+p::after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #aaccff;
+    border-radius: 25%;
+    margin:0 auto;   ☻
+}

@@ -1,0 +1,7 @@
+@media all and (min-width:1025px) {
+    #monitor_alta_res {
+        background-color: #22d8ff;
+        border: 1px solid #000;
+        padding: 10px;
+    }
+}

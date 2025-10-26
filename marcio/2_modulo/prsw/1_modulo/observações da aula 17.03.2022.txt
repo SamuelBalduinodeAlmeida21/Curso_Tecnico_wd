@@ -1,0 +1,22 @@
+4 / 2 = 2 (quociente)
+
+4 % 2 = 0 (módulo ou resto da divisão)
+
+OBS: Todo númemro que se divide por 2, e o resto da divisão é zero, porque este número é par;
+
+Existem duas formas de fazer esse algorítimo;
+
+A lógica é sequência de etapas de algoritimo que faz sentido, ou seja, etapas que ocorrem corretamente;
+
+A lógica não é engressada, ou seja, não existe apenas uma maneira de desenvolver algoritimos sequencias;
+
+Probleminha de Matemática: 
+
+Através do empréstimo bancário com juros simples, um cliente pegou R$2.000,00 emprestado, numa taxa de 10% ao mês, parcelado em 5 vezes (5%)
+
+Fórmula: J = C . i . t
+
+J representa o Juros do empréstimo
+C representa o Captal Inicial, ou seja, o valor do empréstimo
+i é taxa de juros mensal em porcemtagem
+t é o tempo / período do empréstimo  

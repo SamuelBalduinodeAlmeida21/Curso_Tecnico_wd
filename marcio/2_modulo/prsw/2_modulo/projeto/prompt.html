@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var valor1 = prompt("Digite o primeiro valor:  ");
+        var valor2 = prompt("Digite o segundo valor:  ");
+        var valor3 = prompt("Digite o terceiro valor:  ");
+        var valor4 = prompt("Digite o quarto valor:  ");
+        
+        var media = parseInt(valor1) + parseInt(valor2) + parseInt(valor3) + parseInt(valor4)
+        var media2 = media/4
+        document.write("A média entre as notas será de : " + media2);
+
+        if (media2 >=8) {
+            document.write("é muito forte")
+        } 
+        
+        else if (media2 >=7) {
+            document.write("Tá ok")
+        }
+
+        else if (media2 >=6) {
+            document.write("tá na média")
+        }
+
+    </script>
+</body>
+</html>

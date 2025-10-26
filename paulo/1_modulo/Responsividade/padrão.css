@@ -1,0 +1,21 @@
+:root{
+    --ajuste:49vw;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    width: 100%;
+    background: blue;
+}
+
+#container div{
+    display: inline-block;
+    width: 49vw;
+    height: var(--ajuste);
+    background-color: brown;
+}
+

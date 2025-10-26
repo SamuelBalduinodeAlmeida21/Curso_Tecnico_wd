@@ -1,0 +1,9 @@
+#container{
+    margin: auto;
+    width: 90%;
+}
+
+p{
+    font-family: verdana;
+    font-size: 14px;
+}

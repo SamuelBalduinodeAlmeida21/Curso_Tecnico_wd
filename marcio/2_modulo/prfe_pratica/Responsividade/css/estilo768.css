@@ -1,0 +1,7 @@
+@media all and (min-width:481px) and (max-width:768px){
+    #tablets{
+        background-color: #00cca3;
+        border:1px solid #000;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,20 @@
+body{
+    margin: 100px;
+    padding-top: 625pxpx;
+}
+
+a:link{
+    color: #aedcfb;
+}
+
+a:visited{
+    color: mediumpurple;
+}
+
+a:hover{
+    background-color:aliceblue;
+}
+
+a:active{
+    color: red;
+}

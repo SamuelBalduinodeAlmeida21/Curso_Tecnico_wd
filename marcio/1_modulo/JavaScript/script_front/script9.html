@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Funções data</title>
+    <style>
+        body{
+            text-align: center; 
+            text-decoration-color: firebrick;
+            background: #acdbfe;
+            text-size-adjust: auto;
+            text-decoration:solid;
+            text-shadow: 1px 2px 15px black;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        alert("Funções data com switch cases")
+        var hoje, semana;
+        hoje = new Date();
+        semana = hoje.getDay()
+
+        switch(semana) {
+            case 0:
+                document.write("Hoje é Domingo");
+                break;
+            case 1 :
+                document.write("Hoje é Segunda-feira");
+                break;
+            case 2:
+                document.write("Hoje é Terça-feira")
+                break;
+            case 3: 
+                document.write("Hoje é Quarta-feira");
+                break;
+            case 4: 
+                document.write("Hoje é Quinta-feira")
+                break;
+            case 5: 
+                document.write("Hoje é Sexta-feira");
+                break;
+            case 6: 
+                document.write("Hoje é Sábado")
+        }
+    </script>
+</body>
+</html>

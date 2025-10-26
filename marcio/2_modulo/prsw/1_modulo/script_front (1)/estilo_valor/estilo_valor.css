@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Impact;
+    color: white;
+    font-size: 40px;
+
+}
+
+#container{
+    margin: auto;
+    width: 360px;
+    background-color: #00d346;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow:  3px 4px 5px #000000;
+
+}
+
+#frase{
+    font-family: verdana;
+    font-size: 20px;
+}

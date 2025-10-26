@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulariostyle.css">
+    <title>Formuláriozinho</title>
+</head>
+<body>
+    <script>alert("Tentativa de formulário")</script>
+    <form action="dados.jsp" method="post" id="frm_contato" autocomplete="on">
+        <p>
+            <label>
+                Nome: <input type="text" size="40" maxlength="95" name="nome"
+                autofocus required> <span tittle="Campo obrigatório!">*</span>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Endereço: <input type="ttext" size="45" name="Endereço" maxlength="85">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Número: <input type="text" size="5" pattern="^\d(0,)$" name="número">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Telefone: <input type="tel" placeholder="(dd)xxxx-xxxx" pattern="^\(?\d{2}\)\d{4} [-\s]\d{4}$" name="telefone" requeired>
+                <span tittle="Campo onbrigatório">*</span>
+            </label>
+        </p>
+        
+        <p>
+            <label>Cidade:
+                <select name="cidade">
+                    <optgroup label="São Paulo">São Paulo</optgroup>
+                    <option value="São Paulo">Campinas</option>
+                    <option value="São Paulo">Osasco</option>
+                    <option value="São Paulo">carapicuíba</option>
+                    <optgroup label="Paraná">Paraná</optgroup>
+                    <option value="Paraná">Maringá</option>
+                    <option value="Paraná">Curitiba</option>
+                    <option value="Paraná">Londrina</option>
+                </select>
+            </label>
+        </p>
+        <fieldset>
+            <legend> Sexo: </legend>
+            <p>
+                <label>
+                    <input type="radio" name="sexo" value="Masculino">Masculino
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="sexo" name="sexo" value="Feminino">Feminino
+                </label>
+            </p>
+        </fieldset>
+        <p>
+            <label>
+                Data de Nascimento :
+                <input type="date" name="dat_nasc">
+            </label>
+        </p>
+        <p>
+            <label>Mensagem: <br>
+                <textarea cols="40" rows="8" maxlength="100" name="mensagem"></textarea>
+            </label>
+        </p>
+        <p>
+            <input class="botao" type="submit" value="Enviar">
+            <input class="botao" type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>

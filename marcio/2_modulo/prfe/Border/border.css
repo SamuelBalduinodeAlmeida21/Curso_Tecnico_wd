@@ -1,0 +1,73 @@
+*{
+    text-align: center;
+}
+
+body{
+    background-color: #338833;
+}
+
+#titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 27px;
+    text-align: center;
+}
+
+#dotted{
+    border-style: dotted;
+    background-color: #ffffff;
+    border-color: black;
+}
+
+#dashed{
+    border-style: dashed;
+    background-color: #ffffff;
+    border-color: black;
+}
+
+#solid{
+    border-style: solid;
+    background-color: #ffffff;
+    border-color: black;
+}
+
+#double{
+    border-style: double;
+    background-color: #ffffff;
+    border-color: black;
+}
+
+#groove{
+    border-style: groove;
+    background-color: #ffffff;
+    border-color: black;
+}
+
+#ridge{
+    border-style: ridge;
+    background-color: #ffffff;
+    border-color: black;
+}
+
+#inset{
+    border-style: inset;
+    background-color: #ffffff;
+    border-color: black;
+}
+
+#outset{
+    border-style: outset;
+    background-color: #ffffff;
+    border-color: black;
+}
+
+#hidden{
+    border-style: hidden;
+    background-color: #ffffff;
+    border-color: black;
+}
+
+#none{
+    border-style: none;
+    background-color: #ffffff;
+    border-color: black;
+}

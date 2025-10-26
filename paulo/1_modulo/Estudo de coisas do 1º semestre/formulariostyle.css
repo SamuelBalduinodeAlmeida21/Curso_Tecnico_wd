@@ -1,0 +1,38 @@
+#frm_contato{
+    width: 625px;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    border: dashed rgb(3, 107, 3) 1px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border-radius: 5%;
+}
+
+#pg_contato{
+    text-align: left;
+    margin: 0px;
+    font-family: tahoma;
+}
+
+#frm_contato p{
+    margin: 10px;
+}
+
+#frm_contato p label, #frm_contato fieldset legend{
+    color: #000000;
+}
+
+#frm_contato p label{    
+}
+
+#frm_contato fieldset{
+    width: 150px;
+    margin-left: 10px;
+}
+
+#frm_contato .botao{
+    margin-top: 8px;
+    width: 200px;
+    height: 25px;
+}
